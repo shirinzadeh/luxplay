@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import ContactForm from '~/components/ContactForm.vue'
+import ContactForm from '~/components/ui/ContactForm.vue'
 
 useHead({
   title: 'Contact Us - Casino Hotels',
