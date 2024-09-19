@@ -6,7 +6,7 @@
       <HamburgerIcon @click="toggleSidebar" class="sm:hidden" />
     </div>
   </header>
-  <Sidebar :isOpen="isSidebarOpen" @close="toggleSidebar" />
+  <Sidebar :isOpen="isSidebarOpen" @close="toggleSidebar" class="sm:hidden"/>
 </template>
 
 <script setup>
