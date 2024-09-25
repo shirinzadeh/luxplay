@@ -11,14 +11,12 @@
   </template>
   
   <script setup>
-  import { ref, onMounted } from 'vue'
-  import { useRoute } from 'vue-router'
   
   const route = useRoute()
   const url = ref('')
   
   onMounted(() => {
-    url.value = route.query.url as string
+    url.value = route.query.url
     if (url.value) {
       window.location.href = url.value
     }
