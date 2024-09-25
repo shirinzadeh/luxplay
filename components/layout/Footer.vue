@@ -3,7 +3,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-between">
           <div class="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 class="text-xl font-bold mb-2">Casino Hotels</h3>
+            <h3 class="text-xl font-bold mb-2">Gecorooms</h3>
             <p>Find your perfect stay at the best casino hotels.</p>
           </div>
           <div class="w-full md:w-1/3 mb-6 md:mb-0">
@@ -18,7 +18,7 @@
           
         </div>
         <div class="mt-8 text-center">
-          <p>&copy; 2024 Casino Hotels. All rights reserved.</p>
+          <p>&copy; 2024 Gecorooms. All rights reserved.</p>
         </div>
       </div>
     </footer>

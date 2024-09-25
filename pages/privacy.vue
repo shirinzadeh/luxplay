@@ -6,9 +6,9 @@
   
   <script setup>
   useHead({
-    title: 'Privacy Policy - Casino Hotels',
+    title: 'Privacy Policy - Gecorooms',
     meta: [
-      { name: 'description', content: 'Read our Privacy Policy to understand how Casino Hotels collects, uses, and protects your personal information.' }
+      { name: 'description', content: 'Read our Privacy Policy to understand how Gecorooms collects, uses, and protects your personal information.' }
     ]
   })
   </script>

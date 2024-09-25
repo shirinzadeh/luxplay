@@ -50,7 +50,7 @@ const hotels = ref([
 ])
 
 useHead({
-  title: 'Casino Hotels - Find Your Perfect Stay',
+  title: 'Gecorooms - Find Your Perfect Stay',
   meta: [
     { name: 'description', content: 'Discover the best casino hotels for your next exciting getaway. Luxurious accommodations and thrilling entertainment await!' },
     { name: 'keywords', content: 'casino, hotel, resort, vacation, gambling, entertainment' },

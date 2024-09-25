@@ -14,9 +14,9 @@
 import ContactForm from '~/components/ui/ContactForm.vue'
 
 useHead({
-  title: 'Contact Us - Casino Hotels',
+  title: 'Contact Us - Gecorooms',
   meta: [
-    { name: 'description', content: 'Get in touch with Casino Hotels. We\'re here to answer any questions you may have about our services.' }
+    { name: 'description', content: 'Get in touch with Gecorooms. We\'re here to answer any questions you may have about our services.' }
   ]
 })
 </script>

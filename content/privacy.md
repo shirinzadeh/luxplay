@@ -4,7 +4,7 @@ Last updated: September 19, 2024
 
 ## Introduction
 
-Your privacy is important to us. This Privacy Policy explains how Casino Hotels ("we", "our", or "us") collects, uses, and protects your personal information when you use our website.
+Your privacy is important to us. This Privacy Policy explains how Gecorooms ("we", "our", or "us") collects, uses, and protects your personal information when you use our website.
 
 ## Information We Collect
 
