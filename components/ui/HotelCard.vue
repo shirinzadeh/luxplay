@@ -18,7 +18,7 @@
     </div>
     <div class="w-full sm:w-1/6 p-4 sm:p-6 flex items-center justify-center">
       <NuxtLink 
-        :to="hotel.link" 
+        :to="`/redirect?url=${encodeURIComponent(hotel.link)}`"
         class="bg-blue-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg transition-all duration-300 text-center whitespace-nowrap transform hover:scale-105 hover:bg-blue-700 hover:shadow-lg text-sm sm:text-base w-full sm:w-auto"
       >
         Visit Hotel
