@@ -2,23 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image', '@nuxt/content', //   [
-  //   'nuxt-mail',
-  //   {
-  //     message: {
-  //       to: process.env.MAIL_TO,
-  //     },
-  //     smtp: {
-  //       host: process.env.SMTP_HOST,
-  //       port: parseInt(process.env.SMTP_PORT || '587'),
-  //       auth: {
-  //         user: process.env.SMTP_USER,
-  //         pass: process.env.SMTP_PASS,
-  //       },
-  //     },
-  //   },
-  // ],
-  '@vee-validate/nuxt', 'nuxt-security'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image', '@nuxt/content',
+    '@vee-validate/nuxt','nuxt-security'
+    // ['nuxt-security', {
+    //   'navigate-to': ["'self'", 'https://www.crownhotels.com.au', 'https://www.thedarling.com.au', 'https://www.star.com.au', 'https://wrestpoint.com.au', 'https://www.crownmelbourne.com.au'],
+    //   'form-action': ["'self'"],
+    //   'base-uri': ["'self'"]
+    // }],
+  ],
   app: {
     head: {
       meta: [
@@ -64,6 +55,6 @@ export default defineNuxtConfig({
       ErrorMessage: 'VeeErrorMessage',
     },
   },
-  
-  
+
+
 })
